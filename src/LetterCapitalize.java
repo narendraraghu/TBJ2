@@ -8,8 +8,6 @@ class LetterCapitalize {
             sb.append(firstLetter >= 'a' && firstLetter <= 'z' ? (char)(firstLetter - 32) : firstLetter).append(word.substring(1)).append(" ");
         }
         return sb.toString().substring(0, sb.toString().length() - 1);
-
-
     }
 
     public static void main (String[] args) {
@@ -17,7 +15,6 @@ class LetterCapitalize {
         Scanner s = new Scanner(System.in);
         System.out.print(letterCapitalize(s.nextLine()));
     }
-
 }
 
 

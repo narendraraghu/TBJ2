@@ -1,4 +1,5 @@
 
+@FunctionalInterface
 interface DefaultInteface
 {
     default void showMyName()

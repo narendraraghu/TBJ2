@@ -20,9 +20,13 @@ public class PankajListInsideList {
         ArrayList<String> activeRegisters = new ArrayList<String>();
         anotherList.add("this is activeRegisters");
 
-        System.out.println(counterList.add(singleList));
+        System.out.println(counterList.add(activeRegisters));
+        System.out.println(counterList.size());
 
 
 
-    }
+    };
+
+
 }
+

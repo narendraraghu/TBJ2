@@ -31,9 +31,9 @@
         public static void main(String[] args) {
             DP_UniquePaths_Obstacles uniquePaths = new DP_UniquePaths_Obstacles();
             int[][] A = {
-                    {0, 0, 0},
+                    {1, 1, 0},
                     {0, 1, 0},
-                    {0, 0, 0}};
+                    {0, 1, 0}};
             System.out.println(uniquePaths.countUniquePaths(A));
         }
     }

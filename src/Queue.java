@@ -1,10 +1,9 @@
 public class Queue {
 
-    int maxSize;
+    private int maxSize,front,rear,count;
     int queueArrr[];
-    int front;
-    int rear;
-    int count;
+
+    String str ="znstrf", sddf="dfsdg";
     Queue(int maxSize)
     {
         this.maxSize = maxSize;
@@ -12,8 +11,5 @@ public class Queue {
         this.front=0;
         this.rear=-1;
         this.count=0;
-
-
-        //TODO
     }
 }
