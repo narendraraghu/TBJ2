@@ -9,7 +9,7 @@ class ConsumerProducer
 
     public void consume() throws InterruptedException {
         int value = 0;
-        while(true) {
+
             synchronized (this) {
                 while (list.size()==0)
                     wait();
@@ -24,16 +24,16 @@ class ConsumerProducer
                 notify();
                 Thread.sleep(1000);
             }
-        }
+
 
 
     }
 
     public void produce() throws InterruptedException {
         int value = 0;
-        while(true) {
+
             synchronized (this) {
-                while (list.size()==capacity)
+                while (list.size() == capacity)
                     wait();
                 System.out.println("Producer produced-"
                         + value);
@@ -46,7 +46,7 @@ class ConsumerProducer
                 notify();
                 Thread.sleep(1000);
             }
-        }
+
     }
 }
 
