@@ -43,7 +43,7 @@ class B1 extends A1 implements Serializable
 }
 
 // Driver class
-public class ClassIsSerilizebutSuperNot
+public class ClassIsSerializableSuperNot
 {
     public static void main(String[] args)
             throws Exception
