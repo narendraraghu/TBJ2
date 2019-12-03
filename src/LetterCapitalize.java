@@ -1,6 +1,6 @@
 import java.util.*;
 class LetterCapitalize {
-    public static String letterCapitalize(String str) {
+    public static String firstLetterCapitalize(String str) {
 
         StringBuilder sb = new StringBuilder();
         for (String word : str.toLowerCase().split("\\s")) {
@@ -13,9 +13,8 @@ class LetterCapitalize {
     public static void main (String[] args) {
         // keep this function call here
         Scanner s = new Scanner(System.in);
-        System.out.print(letterCapitalize(s.nextLine()));
+        System.out.print(firstLetterCapitalize(s.nextLine()));
     }
 }
 
 
-  
