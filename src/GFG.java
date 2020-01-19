@@ -1,7 +1,6 @@
 // Java program to implement flood fill algorithm
 class GFG
 {
-
     // Dimentions of paint screen
     static int M = 8;
     static int N = 8;

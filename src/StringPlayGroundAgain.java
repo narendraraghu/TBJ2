@@ -1,11 +1,7 @@
 import java.util.regex.Pattern;
 
 public class StringPlayGroundAgain {
-
-
-
     public static void main(String[] args) {
-
         countPantuation();
         countVowelsAndConstants();
         anagram();
@@ -44,7 +40,7 @@ public class StringPlayGroundAgain {
         for (int i = 0; i < str1.length(); i++) {
             if(arr1[i]!=arr2[str1.length()-1])
                 break;
-            System.out.println(" anagram");
+            System.out.println("anagram");
         }
             System.out.println("Not anagram");
         }
@@ -53,7 +49,7 @@ public class StringPlayGroundAgain {
 
     private static void countVowelsAndConstants() {
         String str = "This is a really simple sentence";
-         int countVowels=0;
+        int countVowels=0;
         int countConstant=0;
         char[] arr = str.toCharArray();
         for (int i = 0; i < str.length(); i++) {

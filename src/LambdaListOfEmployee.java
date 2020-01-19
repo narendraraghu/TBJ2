@@ -11,9 +11,7 @@ import java.util.stream.Collectors;
                     .filter(e->e.getAge()>20)
                     .map(Employee::getName)
                     .collect(Collectors.toList());
-
-            employeeFilteredList.forEach((name)-> System.out.println(name));
-
+            employeeFilteredList.forEach(System.out::println);
         }
 
         public static List<Employee> createEmployeeList()

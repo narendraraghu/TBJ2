@@ -1,7 +1,6 @@
 class StackNode {
     int data;
     StackNode next;
-
     StackNode(int data) {
         this.data = data;
     }
@@ -56,8 +55,6 @@ public class StackUsingLL {
             return top.data;
         }
     }
-
-
 
     /*  Function to display the status of the stack */
     public void display()

@@ -19,13 +19,9 @@ public class SumOf {
         for (int i = 0; i < array.length; i++) {
 
             for (int j = 0; j < array.length; j++) {
-
                 if (array[i]+array[j]==10)
-                    System.out.printf("i = %d and j = %d ",i, j);
-
-
+                    System.out.printf("i = %d and j = %d ",array[i], array[j]);
             }
-
         }
         return count;
     }
