@@ -19,3 +19,31 @@ public class OneZeroLeftRight {
         System.out.println(Arrays.toString(newArray));
     }
 }
+/*
+
+A Difficult way of doing the same :P
+public static void main(String[] args) {
+        int arr[] ={1,0,1,1,1,0,0,0,0};
+
+        int low =0;
+        int high = arr.length-1;
+
+        while (low<high)
+        {
+            while (low<high && arr[low]==0)
+                low++;
+
+            while (low<high&& 1 == arr[high]) {
+                high--;
+            }
+            if(low<high)
+            {
+                arr[low]=0;
+                arr[high]=1;
+                low++;
+                high--;
+            }
+        }
+
+        System.out.println(Arrays.toString(arr));
+*/
